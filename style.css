@@ -1,3 +1,5 @@
+
+
 /* ------------funzioni jolly---------- */
 
 .clearfix::after{
@@ -13,16 +15,146 @@
 
 }
 
-.navbar-clearfix{
+/* /---------* inizio pulsante search */
+
+form{
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  transition: all 1s;
+  width: 50px;
+  height: 50px;
+  background: white;
+  box-sizing: border-box;
+  border-radius: 25px;
+  border: 4px solid white;
+  padding: 5px;
+}
+
+input{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;;
+  height: 42.5px;
+  line-height: 30px;
+  outline: 0;
+  border: 0;
+  display: none;
+  font-size: 1em;
+  border-radius: 20px;
+  padding: 0 20px;
+}
+
+.fa{
+  box-sizing: border-box;
+  padding: 10px;
+  width: 42.5px;
+  height: 42.5px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: 50%;
+  color: #FF582E;
+  text-align: center;
+  font-size: 1.2em;
+  transition: all 1s;
+}
+
+form:hover{
+  width: 200px;
+  cursor: pointer;
+}
+
+form:hover input{
+  display: block;
+}
+
+form:hover .fa{
+  background: #FF582E;
+  color: white;
+}
+
+/* /---------* fine pulsante search */
+
+         /* ///////////////////// */
+
+/* -----------inizio pulsanti language */
+
+
+.languagepicker-roundborders-large{
+	font-family: arial;
+	background-color: #333;
+}
+
+
+.languagepicker {
+	background-color: #FFF;
+	display: inline-block;
+	padding: 0;
+	height: 40px;
+	overflow: hidden;
+	transition: all .3s ease;
+	margin-top: 17.16px;
+  vertical-align: center;
+	float: left;
+}
+
+.languagepicker:hover {
+	height: 81px;
+}
+
+.languagepicker a{
+	color: #000;
+	text-decoration: none;
+}
+
+.languagepicker li {
+	display: block;
+	padding: 0px 20px;
+	line-height: 40px;
+	border-top: 1px solid #EEE;
+}
+
+.languagepicker li:hover{
+	background-color: #EEE;
+}
+
+.languagepicker a:first-child li {
+	border: none;
+	background: #FFF;
+}
+
+.languagepicker li img {
+	margin-right: 5px;
+}
+
+.roundborders {
+	border-radius: 5px;
+}
+
+.large:hover {
+	height: 245px;
+}
+
+/* -----------fine pulsanti language */
+
+
+.navbar{
   background-color: #f5f8fa;
   border-bottom: 1px solid #cbd6e2;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
 }
 .nav-one, .nav-two {
   width: 80%;
   height: 12vh;
 }
 
-.language, .telephone{
+
+.telephone, .language{
   float: left;
   height: 12vh;
   align-items: center;
@@ -47,16 +179,62 @@
   font-size: 8px;
   line-height: 1;
   margin: 0 0.25rem 0 1rem;
+  color: #7c98b6;
 }
 
 .container-menu >a{
   padding-left: 20px;
   float: right;
   line-height: 12vh;
+  text-decoration: none;
+  color: #33475b;
+  font-weight: bold;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 .logo{
   float: left;
   margin-left: 0;
-  margin-top: 4vh;
+  margin-top: 3vh;
+}
+
+.shiny-button {
+  display: inline-block;
+  text-align: center;
+  border-width: 1px;
+  border-style: solid;
+  text-transform: uppercase;
+  text-decoration: none;
+  line-height: 1.1;
+  font-weight: normal;
+  font-family: sans-serif;
+  color: #FFFFFF;
+  font-size: 12px;
+  background-color: #FF582E;
+  background-image: -webkit-linear-gradient(top, #ff5c33 0%, #ee8368 48%, #FF582E 49%, #FF582E 82%, #ff6e4a 100%);
+  background-image: -moz-linear-gradient(top, #ff5c33 0%, #ee8368 48%, #FF582E 49%, #FF582E 82%, #ff6e4a 100%);
+  background-image: -o-linear-gradient(top, #ff5c33 0%, #ee8368 48%, #FF582E 49%, #FF582E 82%, #ff6e4a 100%);
+  background-image: linear-gradient(top, #ff5c33 0%, #ee8368 48%, #FF582E 49%, #FF582E 82%, #ff6e4a 100%);
+  border-color: hsl(12, 45%, 59%);
+  -webkit-box-shadow: inset 0 0 1px 1px #ff8161, 0 0 1px 3px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: inset 0 0 1px 1px #ff8161, 0 0 1px 3px rgba(0, 0, 0, 0.15);
+  box-shadow: inset 0 0 1px 1px #ff8161, 0 0 1px 3px rgba(0, 0, 0, 0.15);
+  -webkit-text-shadow: 1px 1px 1px #c72800;
+  -moz-text-shadow: 1px 1px 1px #c72800;
+  -o-text-shadow: 1px 1px 1px #c72800;
+  text-shadow: 1px 1px 1px #c72800;
+  -webkit-border-radius: 9px;
+  -moz-border-radius: 9px;
+  border-radius: 9px;
+  padding: 8.399999999999999px 21px 8.399999999999999px 21px;
+}
+
+.shiny-button:active {
+  color: #FFFFFF;
+  background-color: #ff4c1f;
+  background-image: -webkit-linear-gradient(top, #ff4415 0%, #FF582E 100%);
+  background-image: -moz-linear-gradient(top, #ff4415 0%, #FF582E 100%);
+  background-image: -o-linear-gradient(top, #ff4415 0%, #FF582E 100%);
+  background-image: linear-gradient(top, #ff4415 0%, #FF582E 100%);
+  padding: 9.399999999999999px 21px 7.399999999999999px 21px;
 }
