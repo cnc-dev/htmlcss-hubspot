@@ -83,12 +83,6 @@ form:hover .fa{
 /* -----------inizio pulsanti language */
 
 
-.languagepicker-roundborders-large{
-	font-family: arial;
-	background-color: #333;
-}
-
-
 .languagepicker {
 	background-color: #FFF;
 	display: inline-block;
@@ -96,9 +90,10 @@ form:hover .fa{
 	height: 40px;
 	overflow: hidden;
 	transition: all .3s ease;
-	margin-top: 17.16px;
+	margin-top: 21.65px;
   vertical-align: center;
 	float: left;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 .languagepicker:hover {
