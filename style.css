@@ -1,0 +1,62 @@
+/* ------------funzioni jolly---------- */
+
+.clearfix::after{
+  clear: both;
+  display: table;
+  content: "";
+}
+/* ------------fine funzioni jolly---------- */
+
+*{
+  margin: auto;
+  box-sizing: border-box;
+
+}
+
+.navbar-clearfix{
+  background-color: #f5f8fa;
+  border-bottom: 1px solid #cbd6e2;
+}
+.nav-one, .nav-two {
+  width: 80%;
+  height: 20vh;
+}
+
+.language, .telephone{
+  float: left;
+  height: 20vh;
+  align-items: center;
+  line-height: 20vh;
+  padding-right: 20px;
+}
+
+.search, .login, .get-button{
+  float: right;
+  height: 20vh;
+  line-height: 20vh;
+  padding-left: 20px;
+}
+
+
+.label{
+  content: '\E004';
+  display: inline-block;
+  position: relative;
+  color: #7c98b6;
+  font-family: 'hsg-icons';
+  font-size: 8px;
+  line-height: 1;
+  margin: 0 0.25rem 0 1rem;
+}
+
+.container-menu >a{
+  padding-left: 20px;
+  float: right;
+  line-height: 20vh;
+}
+
+.logo{
+  float: left;
+  margin-left: 0;
+  margin-top: 6vh;
+}
