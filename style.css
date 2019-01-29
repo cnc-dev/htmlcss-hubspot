@@ -90,7 +90,6 @@ form:hover .fa{
 	height: 40px;
 	overflow: hidden;
 	transition: all .3s ease;
-	margin-top: 21.65px;
   vertical-align: center;
 	float: left;
   font-family: 'Ubuntu', sans-serif;
@@ -232,4 +231,140 @@ form:hover .fa{
   background-image: -o-linear-gradient(top, #ff4415 0%, #FF582E 100%);
   background-image: linear-gradient(top, #ff4415 0%, #FF582E 100%);
   padding: 9.399999999999999px 21px 7.399999999999999px 21px;
+}
+
+.hero1-img{
+  height: 100vh;
+  width: 100%;
+  background-image: url("hero1.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.cont-row1{
+  padding-top: 100px;
+}
+
+.content-rows{
+  width: 100%;
+  background-color: #f5f8fa;
+}
+
+.cont-row2{
+  background-color: white;
+  width: 60%;
+  height: 290px;
+}
+
+.cont-row2-left >a{
+  margin-left: 80px;
+}
+
+.cont-row2-left{
+  float: left;
+  width: 30%;
+}
+
+.cont-row2-right{
+  height: 224px;
+  width: 448px;
+  float: left;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  margin-left: 90px;
+  margin-right: 60px;
+}
+
+.cont-row3{
+  width: 60%;
+}
+
+.cont-row3 >*{
+  width: 30%;
+  float: left;
+  padding: 40px;
+}
+
+.colonna1, .colonna2, .colonna3{
+  background-color: white;
+  margin-top: 50px;
+  margin-bottom: 150px;
+}
+
+.colonna2{
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+#imgrow2{
+  width: 300px;
+  padding: 30px;
+}
+
+.imgrow1{
+  width: 260px;
+  height: 195px;
+  background-image: url("integrations_illustration@2x.webp");
+  background-size: cover;
+}
+
+#p-row1{
+  font-family: 'Ubuntu', sans-serif;
+  width: 70%;
+  text-align: center;
+  display: block;
+  margin-top: 30px;
+  color: grey;
+  padding-bottom: 100px;
+}
+
+#h2-row1{
+  font-size: 30px;
+  width: 70%;
+  text-align: center;
+  display: block;
+  margin-top: 30px;
+}
+
+.rows{
+  background-color: #f5f8fa;
+}
+
+.imgcolonna{
+  height: 150px;
+  width: 100%;
+}
+
+.social{
+  background-image: linear-gradient(45deg, #00a4bd, #00bda5);
+  height: 150vh;
+}
+
+.box{
+  height: 184px;
+  width: 25%;
+  float: left;
+  text-align: center;
+}
+
+.one, .two, .three, .five, .six, .seven{
+  border-right: 2px solid white;
+}
+
+.one, .two, .three, .four{
+  border-bottom: 2px solid white;
+}
+
+.social-container{
+  width: 70%;
+  text-align: center;
+}
+
+.container-box{
+
+  margin-top: 20%;
+}
+
+.box >img{
+  margin-top: 30px;
 }
