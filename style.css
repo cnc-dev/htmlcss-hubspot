@@ -7,12 +7,32 @@
   display: table;
   content: "";
 }
+
+.hover:hover {
+  border: 2px solid #ff6600;
+  border-radius: 20px;
+}
+
+.tl{
+  text-align: center;
+}
+
+.bb{
+  font-weight: bold;
+}
+
+.pad{
+  padding-top: 10px;
+  font-size: 50px;
+}
+
 /* ------------fine funzioni jolly---------- */
 
 *{
   margin: auto;
   box-sizing: border-box;
-
+  font-family: 'Montserrat', sans-serif;
+  color: #33475b;
 }
 
 /* /---------* inizio pulsante search */
@@ -92,7 +112,6 @@ form:hover .fa{
 	transition: all .3s ease;
   vertical-align: center;
 	float: left;
-  font-family: 'Ubuntu', sans-serif;
 }
 
 .languagepicker:hover {
@@ -154,6 +173,7 @@ form:hover .fa{
   align-items: center;
   line-height: 12vh;
   padding-right: 20px;
+  font-size: 14px;
 }
 
 .search, .login, .get-button{
@@ -182,8 +202,6 @@ form:hover .fa{
   line-height: 12vh;
   text-decoration: none;
   color: #33475b;
-  font-weight: bold;
-  font-family: 'Ubuntu', sans-serif;
 }
 
 .logo{
@@ -296,6 +314,40 @@ form:hover .fa{
   margin-right: 5%;
 }
 
+.cont-hero1-img{
+  width: 50%;
+  float: left;
+  padding-left:10%;
+  padding-right: 5%;
+  margin-top: 3%;
+}
+
+.cont-hero1-img >h1{
+  font-size: 45px;
+  color: white;
+}
+
+.cont-hero1-img >p{
+  font-size: 15px;
+  color: white;
+}
+
+.lirow2{
+  float: left;
+  margin-top: 20px;
+  padding-right: 20px;
+}
+
+.lico{
+  font-size: 12px;
+  margin: 10px;
+}
+
+.cont-hero1-img >i{
+  font-size: 10px;
+  color: white;
+}
+
 #imgrow2{
   width: 300px;
   padding: 30px;
@@ -309,7 +361,6 @@ form:hover .fa{
 }
 
 #p-row1{
-  font-family: 'Ubuntu', sans-serif;
   width: 70%;
   text-align: center;
   display: block;
@@ -337,7 +388,7 @@ form:hover .fa{
 
 .social{
   background-image: linear-gradient(45deg, #00a4bd, #00bda5);
-  height: 150vh;
+  height: 60vw;
 }
 
 .box{
@@ -360,8 +411,22 @@ form:hover .fa{
   text-align: center;
 }
 
+.social-container >h1{
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.social-container >p{
+  color: white;
+  font-size: 15px;
+  text-align: center;
+  padding-top: 50px;
+}
+
 .container-box{
-  margin-top: 20%;
+  margin-top: 10%;
 }
 
 .box >img{
@@ -408,13 +473,11 @@ form:hover .fa{
 
 .prefooter-left >h2{
   font-size: 30px;
-  font-family: 'Ubuntu', sans-serif;
   margin-top: 100px;
 }
 
 .prefooter-left >p{
   font-size: 15px;
-  font-family: 'Ubuntu', sans-serif;
   margin-top: 50px;
   margin-bottom: 50px;
 }
@@ -426,6 +489,7 @@ form:hover .fa{
   border-radius: 200px;;
   background-image: url("https://www.hubspot.com/hubfs/assets/hubspot.com/_style-guide/sword-sprocket/CTA_Card_profile_1@2x.png");
   background-size: cover;
+  background-color: #f5f8fa;
 }
 
 .prefooter{
@@ -437,13 +501,16 @@ form:hover .fa{
   width: 100%;
   height: 100%;
   margin: auto;
-  padding-left: 5%;
-  padding-right: 5%;
+}
+
+.footercontainer{
+  width: 80%;
+  margin: auto;
 }
 
 .foa, .fb, .fc, .fd{
   margin-top: 30px;
-  width: 22.5%;
+  width: 25%;
   float: left;
   text-decoration: none;
   text-align: center;
@@ -453,6 +520,21 @@ form:hover .fa{
 a{
   text-decoration: none;
   color: white;
+}
+
+.fot{
+  font-size: 11px;
+  padding: 10px;
+  text-align: left;
+  font-weight: lighter;
+}
+
+.foth1{
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 30px;
+  text-align: left;
+  font-weight: 300;
 }
 
 ul {
