@@ -167,6 +167,7 @@ form:hover .fa{
 }
 
 
+
 .telephone, .language{
   float: left;
   height: 12vh;
@@ -514,13 +515,23 @@ form:hover .fa{
   float: left;
   text-decoration: none;
   text-align: center;
-  color: white;
+  color: #cbd6e2;
 }
 
-a{
+.foth1 > a{
   text-decoration: none;
-  color: white;
+  color: #cbd6e2;
 }
+
+.footerbutton{
+  text-align: left;
+}
+
+.fot > a{
+  text-decoration: none;
+  color: #cbd6e2;
+}
+
 
 .fot{
   font-size: 11px;
@@ -541,4 +552,35 @@ ul {
 list-style-type: none;
 padding-left: 0;
 margin-left: 0;
+}
+
+.socialicons-container >i{
+  color: #cbd6e2;
+  padding: 20px;
+}
+
+.lgf{
+  color: #cbd6e2;
+  padding: 20px;
+  display: inline-block;
+}
+
+.lgf >a{
+  color: #cbd6e2;
+}
+
+.lang-footer{
+  width: 80%;
+  text-align: center;
+}
+
+.socialicons-container{
+  width: 30%;
+  color: #cbd6e2;
+  margin-right: 0px;
+}
+
+.footersocial >p{
+  color: #cbd6e2;
+  font-size: 12px;
 }
